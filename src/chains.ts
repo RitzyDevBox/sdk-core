@@ -15,7 +15,9 @@ export enum ChainId {
   BNB = 56,
   AVALANCHE = 43114,
   BASE_GOERLI = 84531,
-  BASE = 8453
+  BASE = 8453,
+  HYPEREVM_TESTNET = 998,
+  HYPEREVM = 999,
 }
 
 export const SUPPORTED_CHAINS = [
@@ -33,7 +35,9 @@ export const SUPPORTED_CHAINS = [
   ChainId.BNB,
   ChainId.AVALANCHE,
   ChainId.BASE,
-  ChainId.BASE_GOERLI
+  ChainId.BASE_GOERLI,
+  ChainId.HYPEREVM_TESTNET,
+  ChainId.HYPEREVM,
 ] as const
 export type SupportedChainsType = typeof SUPPORTED_CHAINS[number]
 
@@ -45,5 +49,9 @@ export enum NativeCurrencyName {
   GNOSIS = 'XDAI',
   MOONBEAM = 'GLMR',
   BNB = 'BNB',
-  AVAX = 'AVAX'
+  AVAX = 'AVAX',
+  BTTC = 'BTTC',
+  FTM = 'FTM',
+  EON = 'ZEN',
+  HYPE = "HYPE"
 }
