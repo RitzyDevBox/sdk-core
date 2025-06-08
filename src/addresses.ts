@@ -221,7 +221,7 @@ const HYPEREVM_ADDRESSES: ChainAddresses = {
   nonfungiblePositionManagerAddress: '0x6eDA206207c09e5428F281761DdC0D300851fBC8',
   tickLensAddress: '0x8F1eA97FfDfEDA3bE7EabfED95eF49f909b2975A',
   swapRouter02Address: '0x4E2960a8cd19B467b82d26D83fAcb0fAE26b094D',
-  v1MixedRouteQuoterAddress: '0x965c3669Bb7c012Ea0DD406d2210E671f54FDd52',
+  v1MixedRouteQuoterAddress: '0x71DbfE385d19C22b15F11336e0fd17882A6505F8',
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
