@@ -220,7 +220,8 @@ const HYPEREVM_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0x820Ec81E0556f2f94f4725D358b399c11Cd78cf8',
   nonfungiblePositionManagerAddress: '0x6eDA206207c09e5428F281761DdC0D300851fBC8',
   tickLensAddress: '0x8F1eA97FfDfEDA3bE7EabfED95eF49f909b2975A',
-  swapRouter02Address: '0x4E2960a8cd19B467b82d26D83fAcb0fAE26b094D'
+  swapRouter02Address: '0x4E2960a8cd19B467b82d26D83fAcb0fAE26b094D',
+  v1MixedRouteQuoterAddress: '0x965c3669Bb7c012Ea0DD406d2210E671f54FDd52',
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
